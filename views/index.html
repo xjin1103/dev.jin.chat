@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Socket IO Chat with Node!</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Kavivanar|Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h2>CHAT ROOM</h2>
+	</header>
+	<div id="status"></div>
+	<ul id="messages"></ul>
+	<input type="text" class="nickname" placeholder="What is your nickname?">
+	<form>
+		<input class="message" type="text" id="m" autocomplete="off">
+		<button>SEND</button>
+	</form>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="js/main.min.js"></script>
+</body>
+</html>
